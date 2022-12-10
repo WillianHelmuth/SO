@@ -1,0 +1,77 @@
+Sistemas Operacionais
+Lista de exercícios 25
+
+Nome: Willian Helmuth
+
+Instruções: 
+a) Fazer os exercícios abaixo usando somente os comandos do terminal. Não usar interface gráfica.
+b) Responder cada questão copiando e colando com o mouse o comando e o resultado após cada questão. Quando a questão solicita alguma informação específica, grife no resultado do comando onde está a informação solicitada. Copie em formato texto, e não em imagem, para não extrapolar o tamanho máximo de arquivo permitido pelo Moodle.
+c) Postar o resultado no Moodle, EM FORMATO EDITÁVEL (.doc, .docx ou .odt). NÃO POSTAR EM FORMATO PDF.
+
+
+1) Verificar em qual diretório você se encontra.
+$ pwd
+
+/home/superior
+
+2) Criar a seguinte estrutura de diretórios dentro da pasta HOME do seu usuário.
+./lista2 
+./trabalho 
+./lista2/textos 
+
+$ mkdir lista2
+$ mkdir trabalho
+$ cd lista2
+
+3) Entrar na pasta lista2/textos
+
+$ cd lista2
+$ cd textos
+
+4) Criar um arquivo chamado “números.txt”, usando o comando cat ou o comando echo, contendo os seguintes números:
+10 
+100 
+50 
+25 
+1 
+2 
+
+5) Duplicar o arquivo numeros.txt para numeros1.txt e numeros2.txt (cp).
+
+6) Copiar todos os arquivos com extensão .txt para a pasta trabalho (cp).
+
+7) Exibir a listagem de todos os arquivos da pasta corrente com seus detalhes (permissões de acesso, data, hora de criação, tamanho) (ls).
+
+8) Mudar a permissão de acesso do arquivo numeros.txt para rwxr-xr-x (chmod).
+
+9) Mudar a permissão de acesso do arquivo numeros.txt para permitir somente leitura e gravação pelo dono, e somente leitura pelos demais usuários (chmod).
+
+10) Copiar a pasta textos e seu conteúdo, para dentro da pasta HOME do seu usuário (cp).
+
+11) Renomear o arquivo numeros.txt para sequencia.doc (mv).
+
+12) Deletar os arquivos com extensão .doc (rm e coringas).
+
+13) Apagar a pasta textos que está dentro de lista2 e entrar na pasta textos que está na pasta HOME do seu usuário
+
+
+14) Listar todos os arquivos da pasta /usr/bin e guardar essa lista em um arquivo chamado “listabin.txt” (redirecionamento de saída). São muitos arquivos, então basta mostrar o tamanho do arquivo gerado.
+
+15) Mostrar somente as linhas 7 a 10 do arquivo listabin.txt (head e tail)
+
+16) Listar todos os arquivos da pasta /usr/bin apresentando o resultado na tela página por página (comando less). Enquanto o comando less apresenta a primeira página da relação de arquivos, abrir outra sessão de terminal e descobrir o número do processo less da primeira sessão (ps). Destaque na resposta do comando o pid do processo.
+
+17) A partir da segunda sessão, encerrar o processo less aberto na primeira sessão (kill).
+
+18) Identificar qual o processo que mais está consumindo CPU, qual está consumindo mais memória e qual o percentual de ocupação da CPU (top). Destaque as informações solicitadas na resposta do comando.
+
+19) Listar na tela o login e a pasta home dos últimos 10 usuários cadastrados no sistema (tail e cut)
+
+20) Listar na tela o login e o id de todos os usuários que contém a string sys no login (grep e cut)
+
+21) Qual o espaço ocupado pela pasta HOME do seu usuário detalhando todas as subpastas (du)?
+
+22) Qual o espaço livre no filesystem /home (df)? 
+
+
+
