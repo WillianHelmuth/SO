@@ -36,6 +36,14 @@ $ cd textos
 1 
 2 
 
+$ cat > números.txt
+10 
+100 
+50 
+25 
+1 
+2 
+
 5) Duplicar o arquivo numeros.txt para numeros1.txt e numeros2.txt (cp).
 
 6) Copiar todos os arquivos com extensão .txt para a pasta trabalho (cp).
